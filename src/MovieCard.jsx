@@ -10,6 +10,7 @@ return (
 
         <div>
             <img
+               // if image is not available, show placeholder
                 src={ themovie.Poster !== 'N/A' ? themovie.Poster : 'https://via.placeholder.com/400'}
                 alt={ themovie.Title }
             />
